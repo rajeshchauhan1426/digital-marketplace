@@ -2,7 +2,7 @@ import { Link } from "lucide-react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Icons } from "./Icons";
 import NavItems from "./NavItems";
-
+//mu7tmutut
 const Navbar = () => {
     return ( 
         <div className="bg-white sticky z-50 top-0 inset-x-0 h-16">
