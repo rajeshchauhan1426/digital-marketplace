@@ -2,6 +2,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import {ArrowDownToLine, CheckCircle, Leaf} from 'lucide-react'
+import { Badge } from "@/components/ui/badge";
 
 
  const perk= [
@@ -29,12 +30,13 @@ export default function Home() {
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"> Market place for high Quality Digital {' '} <span className="text-blue-600">Digital Assets</span>.
         
         </h1>
+        
         <p className="mt-6 text-lg max-w-prose text-muted-foreground">
         Own your future. Explore the world of digital assets - collectibles, art, and more.  Unlock a new asset class: Invest, trade, and experience the potential of digital ownership. Join the digital revolution: Discover a secure and transparent way to own and manage your assets. Start your digital journey today: Explore our platform and discover the possibilities.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
           <Link href='/products' className={buttonVariants()}>Browse Trending</Link>
-          <Button>Our Quality Promises &rarr</Button>
+          <Button>Our Quality Promises & Product</Button>
         </div>
       </div>
 
@@ -55,7 +57,7 @@ export default function Home() {
           <div className="mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6">
             <h3 className="text-base font-medium text-gray-900">{perk.name}</h3>
             <p className="mt-3 text-sm text-muted-foreground">{perk.description}</p>
-
+            
           </div>
 
         </div>
